@@ -1,0 +1,9 @@
+apiVersion: accelerator.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: simple-tanzu-accelerator
+spec:
+  git:
+    url: https://github.com/ppringle/simple-tanzu-accelerator
+    ref:
+      branch: main
